@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "27b55682-c016-4fb0-8719-d9afbf38fc0f",
+		"name": "SBR-API Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48884509",
+		"_collection_link": "https://tatianasegura2107-768605.postman.co/workspace/Tatiana-Segura's-Workspace~4d7a27ff-68f7-4dd7-89d4-cf8f531db747/collection/48884509-27b55682-c016-4fb0-8719-d9afbf38fc0f?action=share&source=collection_link&creator=48884509"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/sbr/LoginServlet",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "usuario",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/sbr/LoginServlet",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sbr",
+						"LoginServlet"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
