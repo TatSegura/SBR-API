@@ -1,0 +1,17 @@
+# Maven
+/target/
+
+# IDE genéricos
+/.idea/
+/.vscode/
+*.iml
+
+# NetBeans
+/nbproject/private/
+/build/
+nbactions.xml
+# nb-configuration.xml sí se versiona
+
+# SO
+.DS_Store
+Thumbs.db
